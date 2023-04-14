@@ -1,0 +1,65 @@
+section .container {
+  margin: 50px auto;
+}
+
+.goals,
+.team,
+.scopes,
+.primary,
+.timeline {
+  background-color: #eee;
+}
+
+.goals i,
+.team i {
+  font-size: 24px;
+}
+
+h2 {
+  border-bottom: 1px solid #aaa;
+}
+
+.goal-detail {
+  border-bottom: 1px solid #ccc;
+}
+
+.timeline-detail {
+  border-bottom: 1px dotted #1919db;
+}
+
+.timeline-detail div {
+  flex-basis: 100%;
+}
+
+svg {
+  height: 40px;
+  width: 40px;
+  fill: #1919db;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    margin: 0px;
+  }
+
+  .icon {
+    text-align: center;
+  }
+
+  .goals {
+    order: 0;
+  }
+
+  .scopes {
+    order: 1;
+    margin-bottom: 16px;
+  }
+
+  .team {
+    order: 3;
+  }
+
+  .primary {
+    order: 4;
+  }
+}

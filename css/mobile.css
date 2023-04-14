@@ -1,0 +1,89 @@
+/*Mobile*/
+@media (max-width: 500px) {
+  #banner {
+    height: 100vh;
+    background-position: center;
+  }
+
+  #banner h1 {
+    text-align: center;
+  }
+
+  #nav-bar .container {
+    display: block;
+  }
+
+  #nav-bar .nav-bar-info {
+    display: none;
+  }
+
+  #nav-bar div {
+    border: none;
+  }
+
+  #nav-bar div:last-child {
+    border: none;
+  }
+
+  #about {
+    display: block;
+  }
+
+  #about ul {
+    padding-left: 0;
+  }
+
+  #job-info .container {
+    display: block;
+    height: 2600px;
+  }
+
+  #job-info .job-info-item {
+    grid-template-columns: 1fr auto;
+    padding: 20px 20px 0 20px;
+  }
+
+  #certificate .certificate-container {
+    display: block;
+  }
+
+  .certificate-container .certificate2::after,
+  .certificate-container .certificate2::before {
+    display: none;
+  }
+
+  #certificate .certificate {
+    margin: 30px 0;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  #certificate .certificate:last-child {
+    border-bottom: none;
+  }
+
+  #project .project-container {
+    display: block;
+  }
+
+  #project .project-grid {
+    grid-template-columns: auto 1fr;
+  }
+
+  #project .project-detail {
+    height: 500px;
+  }
+
+  #project .project {
+    margin-bottom: 60px;
+  }
+
+  #project .project-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  #project .project:last-child {
+    margin-bottom: 0;
+  }
+}
